@@ -6,9 +6,9 @@ export interface RequestMessage {
   networkType: string;
 }
 
-const DOMAIN = 'defi.finance';
+const DOMAIN = 'nbcompany.io';
 const STATEMENT = 'Please sign this message to confirm your identity.';
-const URI = 'https://defi.finance';
+const URI = 'https://nbcompany.io';
 const EXPIRATION_TIME = '2025-01-01T00:00:00.000Z';
 const TIMEOUT = 15;
 

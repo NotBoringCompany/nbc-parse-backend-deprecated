@@ -5,9 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.requestMessage = void 0;
 const moralis_1 = __importDefault(require("moralis"));
-const DOMAIN = 'defi.finance';
+const DOMAIN = 'nbc-webapp';
 const STATEMENT = 'Please sign this message to confirm your identity.';
-const URI = 'https://defi.finance';
+const URI = 'https://webapp.nbcompany.io/';
 const EXPIRATION_TIME = '2023-01-01T00:00:00.000Z';
 const TIMEOUT = 15;
 async function requestMessage({ address, chain, networkType, }) {

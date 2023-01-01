@@ -12,6 +12,12 @@ export const parseDashboard = new ParseDashboard(
         masterKey: config.MASTER_KEY,
       },
     ],
+    users: [
+        {
+            user: 'nbc-admin',
+            pass: 'LamoxCatalyst2020'
+        },
+    ],
   },
   { allowInsecureHTTP: true },
 );

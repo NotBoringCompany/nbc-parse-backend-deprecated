@@ -14,8 +14,8 @@ export const parseDashboard = new ParseDashboard(
     ],
     users: [
         {
-            user: 'nbc-admin',
-            pass: 'LamoxCatalyst2020'
+            user: config.DASHBOARD_USERNAME,
+            pass: config.DASHBOARD_PASSWORD,
         },
     ],
   },

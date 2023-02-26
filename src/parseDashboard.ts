@@ -14,7 +14,7 @@ export const parseDashboard = new ParseDashboard(
     ],
     users: [
         {
-            user: config.DASHBOARD_USERNAME,
+            user: config.DASHBOARD_USER,
             pass: config.DASHBOARD_PASSWORD,
         },
     ],

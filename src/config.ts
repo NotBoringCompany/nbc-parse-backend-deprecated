@@ -57,7 +57,7 @@ export default cleanEnv(process.env, {
     default: '/streams-webhook',
   }),
 
-  DASHBOARD_USERNAME: str({
+  DASHBOARD_USER: str({
     desc: 'Username for dashboard',
   }),
   DASHBOARD_PASSWORD: str({

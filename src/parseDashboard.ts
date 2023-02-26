@@ -6,7 +6,7 @@ export const parseDashboard = new ParseDashboard(
   {
     apps: [
       {
-        appName: 'Moralis Server',
+        appName: 'Not Boring Company',
         serverURL: config.SERVER_URL,
         appId: config.APPLICATION_ID,
         masterKey: config.MASTER_KEY,
